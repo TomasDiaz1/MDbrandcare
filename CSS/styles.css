@@ -1,0 +1,247 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+section {
+  /*dos de intro*/
+  /*Demas items*/
+}
+section header nav {
+  height: 100px;
+}
+section header nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section header nav div a {
+  color: #F14A26;
+}
+section .nav-item .nav-link:hover {
+  color: #F14A26;
+}
+section #intro1 {
+  background-color: #EAEAEA;
+  height: 908px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #intro1:hover {
+  background-color: #dfe4e0;
+}
+section #intro2 {
+  background-color: #F14A26;
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #intro2:hover {
+  background-color: #FF4500;
+}
+section #proposito {
+  background-color: #EAEAEA;
+  height: 908px;
+  margin-top: 50px;
+  padding: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #proposito:hover {
+  background-color: #D8D8D8;
+}
+section #filosofia {
+  display: flex;
+  flex-direction: column;
+  height: 908px;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEAEA;
+  font-size: x-large;
+}
+section #filosofia .rojosc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+section #filosofia .rojosc .cua {
+  height: 225px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+section #filosofia .rojosc .cua:hover {
+  -webkit-animation-name: cuadrado;
+          animation-name: cuadrado;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+section #filosofia .sub {
+  font-size: large;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section #filosofia .sub .epigrafe {
+  width: 400px;
+}
+section #extra {
+  background-color: #FBF2EF;
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: left;
+  padding: 200px;
+}
+section #extra:hover {
+  background-color: #F2F2F2;
+}
+section #abordaje {
+  background-color: #EAEAEA;
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #abordaje #izq {
+  padding: 200px;
+}
+section #abordaje:hover {
+  background-color: #D8D8D8;
+}
+section #proyectos {
+  background-color: white;
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #proyectos:hover {
+  background-color: #D8D8D8;
+}
+section #proyectos2 {
+  background-color: hsl(0deg, 57%, 97%);
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #proyectos2:hover {
+  background-color: #D8D8D8;
+}
+section #proyectos3 {
+  background-color: white;
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #proyectos3:hover {
+  background-color: #D8D8D8;
+}
+section #proyectos4 {
+  background-color: white;
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #proyectos4:hover {
+  background-color: #D8D8D8;
+}
+section #clientes {
+  background-color: white;
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #clientes:hover {
+  background-color: #F14A26;
+}
+section #sobreMD {
+  background-color: #EAEAEA;
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+section #sobreMD img {
+  margin-left: 100px;
+}
+section #sobreMD #info {
+  padding: 200px;
+}
+section #sobreMD:hover {
+  background-color: #dfe4e0;
+}
+section #contacto {
+  background-color: #EAEAEA;
+  height: 908px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+section #contacto img {
+  margin-left: 100px;
+  width: 325px;
+}
+section #contacto span {
+  padding: 100px;
+  text-align: left;
+}
+section #contacto:hover {
+  background-color: #dfe4e0;
+}
+
+/*Animaciones*/
+@-webkit-keyframes cuadrado {
+  0% {
+    width: 225px;
+    height: 225px;
+  }
+  100% {
+    width: 250px;
+    height: 250px;
+  }
+}
+@keyframes cuadrado {
+  0% {
+    width: 225px;
+    height: 225px;
+  }
+  100% {
+    width: 250px;
+    height: 250px;
+  }
+}/*# sourceMappingURL=styles.css.map */

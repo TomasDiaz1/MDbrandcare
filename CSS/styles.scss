@@ -1,0 +1,309 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+$colores:(
+    rojo: #F14A26,
+    );
+$tamaño:(
+  ancho:300px,
+  largo:300px,
+);
+   
+    
+    section{
+        header{
+            
+            nav{
+                height: 100px;
+                li{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                div{
+                    a{
+                        color: #F14A26;
+                    }
+                }
+            }
+        }
+        .nav-item{
+            .nav-link{
+                &:hover{
+                    
+                    color: #F14A26;
+                }
+            }
+        }
+        /*dos de intro*/
+        #intro1{
+            background-color: #EAEAEA;
+            height: 908px;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+        &:hover{
+                background-color: #dfe4e0;
+                
+            }
+            
+        }
+
+        #intro2{
+            background-color: #F14A26;
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+        &:hover{
+                background-color: #FF4500;
+                
+            }
+            
+        }
+/*Demas items*/
+        #proposito{
+            background-color: #EAEAEA;
+            height: 908px;
+            margin-top: 50px;
+            padding: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+        &:hover{
+                background-color: #D8D8D8;
+                
+            }
+            
+        }
+
+        #filosofia{
+            display: flex;
+            flex-direction: column;
+            height: 908px;
+            justify-content: center;
+            align-items: center;
+            background-color: #EAEAEA;
+            font-size:x-large;
+            .rojosc{
+                display: flex;
+                flex-direction: row;
+                
+                justify-content: space-between;
+                margin: 30px;
+                .cua{
+                    height: 225px;
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    &:hover{
+                        animation-name: cuadrado;
+        animation-duration: 1s;
+                    }
+                    
+                    
+                }
+                }
+                .sub{
+                    font-size: large;
+                    text-align: center;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                    .epigrafe{
+                        width: 400px;
+                    }
+                }
+                
+
+            
+
+            
+        
+
+            
+           
+           
+        
+            
+        }
+
+        #extra{
+            background-color: #FBF2EF;
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            text-align: left;
+            padding: 200px;
+        &:hover{
+                background-color: #F2F2F2;
+                
+            }
+            
+        }
+
+        #abordaje{
+            background-color: #EAEAEA;
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            
+            #izq{
+                padding: 200px;
+            }
+        &:hover{
+            background-color: #D8D8D8;
+                
+            }
+            
+        }
+
+        #proyectos{
+            background-color: white;
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            &:hover{
+                background-color: #D8D8D8;
+                    
+                }
+        }
+
+        #proyectos2{
+            background-color: hsl(0, 57%, 97%);
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            &:hover{
+                background-color: #D8D8D8;
+                    
+                }
+            
+        }
+
+        #proyectos3{
+            background-color: white;
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            &:hover{
+                background-color: #D8D8D8;
+                    
+                }
+            
+        }
+
+        #proyectos4{
+            background-color: white;
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            &:hover{
+                background-color: #D8D8D8;
+                    
+                }
+            
+        }
+
+        #clientes{
+            background-color: white;
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            &:hover{
+                background-color: #F14A26;
+                    
+                }
+            
+        }
+
+        #sobreMD{
+            background-color: #EAEAEA;
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            img{
+                margin-left: 100px;
+            }
+            #info{
+                padding: 200px;
+            }
+        &:hover{
+                background-color: #dfe4e0;
+                
+            }
+            
+        }
+
+        #contacto{
+            background-color: #EAEAEA;
+            height: 908px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            
+            
+            img{
+                margin-left: 100px;
+                width: 325px;
+            }
+            span{
+                padding: 100px;
+                text-align: left;
+            }
+        &:hover{
+                background-color: #dfe4e0;
+                
+            }
+            
+        }
+    
+
+
+}
+
+/*Animaciones*/
+@keyframes cuadrado{
+    0%{
+        width: 225px;
+        height: 225px;
+    }
+    100%{
+        width: 250px;
+        height: 250px;
+    }
+}
